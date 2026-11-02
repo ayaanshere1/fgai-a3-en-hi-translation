@@ -1,0 +1,40 @@
+{
+  "transformer": {
+    "key": "transformer",
+    "label": "Transformer (scratch)",
+    "family": "Transformer",
+    "arch": "Encoder–decoder",
+    "adaptation": "Trained from scratch",
+    "params_total": 6042624,
+    "params_trainable": 6042624,
+    "train_time_s": 50.0,
+    "train_peak_mem_gb": null,
+    "infer_time_s": 1.52,
+    "ms_per_sentence": 25.3,
+    "sentences_per_s": 39.45,
+    "infer_peak_mem_gb": null,
+    "BLEU": 0.05,
+    "chrF": 2.48,
+    "chrF++": 2.35,
+    "vocab_size": 2000
+  },
+  "mt5": {
+    "key": "mt5",
+    "label": "mT5-small (fine-tuned)",
+    "family": "mT5",
+    "arch": "Encoder–decoder",
+    "adaptation": "Full fine-tuning",
+    "params_total": 300176768,
+    "params_trainable": 300176768,
+    "train_time_s": 1612.0,
+    "train_peak_mem_gb": null,
+    "infer_time_s": 22.88,
+    "ms_per_sentence": 381.3,
+    "sentences_per_s": 2.62,
+    "infer_peak_mem_gb": null,
+    "BLEU": 0.16,
+    "chrF": 5.12,
+    "chrF++": 4.74,
+    "vocab_size": 250100
+  }
+}

@@ -4,3 +4,4 @@ _local_run*.ipynb
 __pycache__/
 .ipynb_checkpoints/
 .DS_Store
+fgai_a3_outputs.zip

@@ -1,0 +1,3 @@
+Model,Architecture,Adaptation,Params (M),Trainable (M),Train time (min),Inference time (s),ms / sentence,Peak GPU mem (GB),BLEU,chrF,chrF++
+Transformer (scratch),Encoder–decoder,Trained from scratch,6.0,6.04,0.8,1.52,25.3,,0.05,2.48,2.35
+mT5-small (fine-tuned),Encoder–decoder,Full fine-tuning,300.2,300.18,26.9,22.88,381.3,,0.16,5.12,4.74

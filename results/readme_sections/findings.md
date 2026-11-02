@@ -1,0 +1,7 @@
+- **Best overall:** mT5-small (fine-tuned), with chrF 5.1 and BLEU 0.2.
+- **Effect of pretraining:** on the same 1,500 training pairs, pretrained mT5-small scores +2.6 chrF and +0.1 BLEU relative to the Transformer trained from scratch.
+- **Inference cost:** Transformer (scratch) is fastest at 25 ms/sentence and mT5-small (fine-tuned) is slowest at 381 ms/sentence (15× slower).
+- **Tokenisation:** Hindi needs 2.10 tokens/word with SentencePiece-BPE 8k (Transformer) and 2.11 with mT5 SentencePiece 250k. More tokens per word means longer sequences, slower generation and less text fitting in the context window.
+- **Reliability:** the highest off-target rate is mT5-small (fine-tuned) at 3.3%. The highest repetition-loop rate is Transformer (scratch) at 100.0%.
+- **Temperature:** going from greedy to T = 1.0 lowers chrF by -6.2 points on average. The best temperature is ≤ 0.3 for 0 of 2 models.
+- **Gender bias:** share of gender-neutral occupation sentences rendered masculine: Transformer (scratch) 0%, mT5-small (fine-tuned) 0%.

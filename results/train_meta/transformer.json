@@ -1,0 +1,8 @@
+{
+  "train_time_s": 49.9906734170072,
+  "peak_mem_gb": null,
+  "best_val_loss": 6.1294519901275635,
+  "best_epoch": 3,
+  "epochs": 3,
+  "optimizer_steps": 72
+}

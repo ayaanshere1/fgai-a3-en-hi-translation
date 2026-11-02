@@ -1,0 +1,4 @@
+| tokenizer | EN tokens/word | HI tokens/word |
+|---|---|---|
+| SentencePiece-BPE 8k (Transformer) | 2.27 | 2.1 |
+| mT5 SentencePiece 250k | 1.53 | 2.11 |

@@ -1,0 +1,1 @@
+**Best-performing model: mT5-small (fine-tuned)** (encoder–decoder, full fine-tuning), with chrF 5.1 / BLEU 0.2 on the 60-sentence test set.

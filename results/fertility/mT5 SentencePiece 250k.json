@@ -1,0 +1,5 @@
+{
+  "tokenizer": "mT5 SentencePiece 250k",
+  "EN tokens/word": 1.53,
+  "HI tokens/word": 2.11
+}

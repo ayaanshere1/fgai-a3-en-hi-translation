@@ -1,0 +1,5 @@
+{
+  "tokenizer": "SentencePiece-BPE 8k (Transformer)",
+  "EN tokens/word": 2.27,
+  "HI tokens/word": 2.1
+}

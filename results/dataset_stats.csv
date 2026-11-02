@@ -1,0 +1,4 @@
+Split,Pairs,Avg EN words,Avg HI words,EN vocab (types),HI vocab (types)
+Train,1500,14.9,15.8,7159,7036
+Validation,100,13.9,14.8,774,839
+Test,60,14.4,15.6,533,576
