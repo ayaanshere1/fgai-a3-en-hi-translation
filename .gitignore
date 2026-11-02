@@ -1,0 +1,6 @@
+.venv/
+models/
+_local_run*.ipynb
+__pycache__/
+.ipynb_checkpoints/
+.DS_Store

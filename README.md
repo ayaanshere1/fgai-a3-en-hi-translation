@@ -134,6 +134,16 @@ Model weights (`models/`) are not committed because of their size.
 
 Running locally works the same way: `pip install -r requirements.txt`, set `HF_TOKEN`, then `jupyter notebook`. With `USE_DRIVE` ignored outside Colab, outputs are written next to the notebook.
 
+**Local quick run (e.g. macOS, no GPU).** Needs Python ≥ 3.10. With [uv](https://github.com/astral-sh/uv):
+```bash
+uv venv -p 3.11 .venv
+uv pip install -p .venv -r requirements.txt ipykernel
+.venv/bin/python -m ipykernel install --user --name fgai-a3
+export HF_TOKEN=hf_...          # only needed for Llama / Gemma
+.venv/bin/jupyter notebook FGAI_A3_EnHi_Translation_QUICKSTART.ipynb
+```
+Pick the `fgai-a3` kernel. Without a GPU everything runs on CPU, so keep `QUICK_RUN = True`; without `HF_TOKEN`, set `llama=False, gemma=False` in `RUN`. A uv venv has no `pip`, so skip the first `%pip install` cell.
+
 ---
 
 ## 6. Results
